@@ -1,13 +1,7 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    char estado, codigo[3], cidade[20];
+    char estado, codigo[3], cidade[50];
     int populacao, turismo;
     float area, pib;
 
@@ -21,7 +15,7 @@ int main() {
     scanf("%s", &codigo);
 
     printf("\nQual a população da cidade? \n");
-    scanf("%f", &populacao);
+    scanf("%d", &populacao);
 
     printf("\nQual o PIB da cidade em bilhões de reais? \n");
     scanf("%f", &pib);
@@ -32,10 +26,13 @@ int main() {
     printf("\nQuantos pontos turisticos a cidade tem? \n");
     scanf("%d", &turismo);
     
-    printf("\n\nEstado: %c \nCódigo da carta: %s \n", estado, codigo);
-    printf("Nome da cidade: %s \nPopulação: %d \n", cidade, populacao);
-    printf("Área: %.2f km² \nPIB: %.2f bilhões de reais \n", area, pib);
-    printf("Número de pontos turísticos: %d \n", turismo);
+    printf("\nEstado: %c", estado);
+    printf("\nCódigo da carta: %s", codigo);
+    printf("\nNome da cidade: %s", cidade);
+    printf("\nPopulação: %d", populacao);
+    printf("\nÁrea: %.2f km²", area);
+    printf("\nPIB: %.2f bilhões de reais", pib);
+    printf("\nNúmero de pontos turísticos: %d \n", turismo);
 
 
     return 0;
