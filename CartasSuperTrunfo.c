@@ -99,7 +99,7 @@ int main(){
     if(estado > estado2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(estado < estado2) {
+    else if(estado < estado2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -110,7 +110,7 @@ int main(){
     if(numero > numero2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(numero < numero2) {
+    else if(numero < numero2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -121,7 +121,7 @@ int main(){
     if(cidade > cidade2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(cidade < cidade2) {
+    else if(cidade < cidade2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -132,7 +132,7 @@ int main(){
     if(populacao > populacao2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(populacao < populacao2) {
+    else if(populacao < populacao2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -143,7 +143,7 @@ int main(){
     if(area > area2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(area < area2) {
+    else if(area < area2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -154,7 +154,7 @@ int main(){
     if(pib > pib2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(pib < pib2) {
+    else if(pib < pib2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -165,7 +165,7 @@ int main(){
     if(turismo > turismo2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(turismo < turismo2) {
+    else if(turismo < turismo2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -176,7 +176,7 @@ int main(){
     if(densidade < densidade2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(densidade > densidade2) {
+    else if(densidade > densidade2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -187,7 +187,7 @@ int main(){
     if(pibpercapita > pibpercapita2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(pibpercapita < pibpercapita2) {
+    else if(pibpercapita < pibpercapita2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
@@ -199,7 +199,7 @@ int main(){
     if(especial > especial2){
         printf("Vencedor: Carta 1\n\n");
     }
-    if(especial < especial2) {
+    else if(especial < especial2) {
         printf("Vencedor: Carta 2\n\n");
     }
     else {
