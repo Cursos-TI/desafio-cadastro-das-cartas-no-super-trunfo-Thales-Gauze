@@ -207,44 +207,139 @@ int main(){
     //     printf("EMPATE!\n\n");
     // };
     
-    int atr1, atr2;
+    int atr;
 
     do {
-        printf("\nEscolha um atributos para o combate! (1 a 9)");
+        printf("\nEscolha um atributo para o combate! (1 a 8)");
         printf("\n1) Estado");
-        printf("\n2) Código da carta");
-        printf("\n3) Nome da cidade");
-        printf("\n4) População");
-        printf("\n5) Área");
-        printf("\n6) PIB");
-        printf("\n7) Número de pontos turísticos");
-        printf("\n8) Densidade populacional");
-        printf("\n9) PIB per Capita");
+        printf("\n2) Nome da cidade");
+        printf("\n3) População");
+        printf("\n4) Área");
+        printf("\n5) PIB");
+        printf("\n6) Número de pontos turísticos");
+        printf("\n7) Densidade populacional");
+        printf("\n8) PIB per Capita");
+        printf("\n9) Especial!");
         printf("\n0) Para sair do jogo!\n");
-        scanf("%d", &atr1);
-        if (atr1 < 0 || atr1 > 9){
-            printf("Opção inválida.")
+        scanf("%d", &atr);
+        switch (atr){
+            case 1:
+                printf("\n\nVocê escolheu: Estado\nCarta 1: %c  X  Carta 2: %c\n", estado, estado2);
+                if(estado > estado2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(estado < estado2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 2:
+                printf("\n\nVocê escolheu: Cidade\nCarta 1: %s  X  Carta 2: %s\n", cidade, cidade2);
+                if(cidade > cidade2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(cidade < cidade2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 3:
+                printf("\n\nVocê escolheu: População\nCarta 1: %d  X  Carta 2: %d\n", populacao, populacao2);
+                if(populacao > populacao2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(populacao < populacao2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 4:
+                printf("\n\nVocê escolheu: Área\nCarta 1: %.2f  X  Carta 2: %.2f\n", area, area2);
+                if(area > area2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(area < area2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 5:
+                printf("\n\nVocê escolheu: Cidade\nCarta 1: %.2f  X  Carta 2: %.2f\n", pib, pib2);
+                if(pib > pib2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(pib < pib2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 6:
+                printf("\n\nVocê escolheu: Pontos Turísticos\nCarta 1: %d  X  Carta 2: %d\n", turismo, turismo2);
+                if(turismo > turismo2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(turismo < turismo2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 7:
+                printf("\n\nVocê escolheu: Densidade\nCarta 1: %.2f  X  Carta 2: %.2f\n", densidade, densidade2);
+                if(densidade < densidade2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(densidade > densidade2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 8:
+                printf("\n\nVocê escolheu: PIB per capita\nCarta 1: %.2f  X  Carta 2: %.2f\n", pibpercapita, pibpercapita2);
+                if(pibpercapita > pibpercapita2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(pibpercapita < pibpercapita2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 9:
+                printf("\n\nVocê escolheu: Especial!\nCarta 1: %.4f  X  Carta 2: %.4f\n", especial, especial2);
+                if(especial > especial2){
+                    printf("Vencedor: Carta 1\n\n");
+                }
+                else if(especial < especial2) {
+                    printf("Vencedor: Carta 2\n\n");
+                }
+                else {
+                    printf("EMPATE!\n\n");
+                }
+                break;
+            case 0:
+                printf("\nSaindo do jogo! Até mais!\n\n");
+                break;
+            default:
+                printf("\nOpção inválida, tente novamente.\n\n");
+                break;
         }
-        else if (atr1 != 0) {
-            printf("\n\nEscolha outro atributo para o combate! (1 a 9)");
-            printf("\n1) Estado");
-            printf("\n2) Código da carta");
-            printf("\n3) Nome da cidade");
-            printf("\n4) População");
-            printf("\n5) Área");
-            printf("\n6) PIB");
-            printf("\n7) Número de pontos turísticos");
-            printf("\n8) Densidade populacional");
-            printf("\n9) PIB per Capita");
-            printf("\n0) Para sair do jogo!\n");
-            scanf("%d", &atr2);
-            if (atr1 < 0 || atr1 > 9){
-                printf("Opção inválida.")
-            }
-        }
-        else {break};
     }
-    while (atr1 != 0 || atr2 != 0);
+    while (atr != 0);
 
 
     return 0;
