@@ -93,118 +93,159 @@ int main(){
     printf("\n\n");
 
     // Combate das cartas
+    // FUNCIONALIDADE DA ATIVIDADE 1. COMENTADA PARA CRIAÇÃO DO CÓDIGO DA ATIVIDADE 2.
 
-    printf("RESULTADO DO COMBATE ENTRE AS CARTAS:\n");
-    printf("Estado:\nCarta 1: %c  X  Carta 2: %c\n", estado, estado2);
-    if(estado > estado2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(estado < estado2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("RESULTADO DO COMBATE ENTRE AS CARTAS:\n");
+    // printf("Estado:\nCarta 1: %c  X  Carta 2: %c\n", estado, estado2);
+    // if(estado > estado2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(estado < estado2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
     
-    printf("Número da Cidade:\nCarta 1: %02d  X  Carta 2: %02d\n", numero, numero2);
-    if(numero > numero2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(numero < numero2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("Número da Cidade:\nCarta 1: %02d  X  Carta 2: %02d\n", numero, numero2);
+    // if(numero > numero2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(numero < numero2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("Nome da Cidade:\nCarta 1: %s  X  Carta 2: %s\n", cidade, cidade2);
-    if(cidade > cidade2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(cidade < cidade2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("Nome da Cidade:\nCarta 1: %s  X  Carta 2: %s\n", cidade, cidade2);
+    // if(cidade > cidade2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(cidade < cidade2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("População:\nCarta 1: %d  X  Carta 2: %d\n", populacao, populacao2);
-    if(populacao > populacao2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(populacao < populacao2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("População:\nCarta 1: %d  X  Carta 2: %d\n", populacao, populacao2);
+    // if(populacao > populacao2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(populacao < populacao2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("Área em km²:\nCarta 1: %.2f  X  Carta 2: %.2f\n", area, area2);
-    if(area > area2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(area < area2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("Área em km²:\nCarta 1: %.2f  X  Carta 2: %.2f\n", area, area2);
+    // if(area > area2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(area < area2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("PIB em bilhões de reais:\nCarta 1: %.2f  X  Carta 2: %.2f\n", pib, pib2);
-    if(pib > pib2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(pib < pib2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("PIB em bilhões de reais:\nCarta 1: %.2f  X  Carta 2: %.2f\n", pib, pib2);
+    // if(pib > pib2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(pib < pib2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("Turismo:\nCarta 1: %d  X  Carta 2: %d\n", turismo, turismo2);
-    if(turismo > turismo2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(turismo < turismo2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("Turismo:\nCarta 1: %d  X  Carta 2: %d\n", turismo, turismo2);
+    // if(turismo > turismo2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(turismo < turismo2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("Densidade:\nCarta 1: %.4f  X  Carta 2: %.4f\n", densidade, densidade2);
-    if(densidade < densidade2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(densidade > densidade2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("Densidade:\nCarta 1: %.4f  X  Carta 2: %.4f\n", densidade, densidade2);
+    // if(densidade < densidade2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(densidade > densidade2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("PIB per Capita:\nCarta 1: %.4f  X  Carta 2: %.4f\n", pibpercapita, pibpercapita2);
-    if(pibpercapita > pibpercapita2){
-        printf("Vencedor: Carta 1\n\n");
-    }
-    else if(pibpercapita < pibpercapita2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    // printf("PIB per Capita:\nCarta 1: %.4f  X  Carta 2: %.4f\n", pibpercapita, pibpercapita2);
+    // if(pibpercapita > pibpercapita2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(pibpercapita < pibpercapita2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
 
-    printf("RODADA ESPECIAL\n");
-    printf("Especial:\nCarta 1: %.4f  X  Carta 2: %.4f\n", especial, especial2);
-    if(especial > especial2){
-        printf("Vencedor: Carta 1\n\n");
+    // printf("RODADA ESPECIAL\n");
+    // printf("Especial:\nCarta 1: %.4f  X  Carta 2: %.4f\n", especial, especial2);
+    // if(especial > especial2){
+    //     printf("Vencedor: Carta 1\n\n");
+    // }
+    // else if(especial < especial2) {
+    //     printf("Vencedor: Carta 2\n\n");
+    // }
+    // else {
+    //     printf("EMPATE!\n\n");
+    // };
+    
+    int atr1, atr2;
+
+    do {
+        printf("\nEscolha um atributos para o combate! (1 a 9)");
+        printf("\n1) Estado");
+        printf("\n2) Código da carta");
+        printf("\n3) Nome da cidade");
+        printf("\n4) População");
+        printf("\n5) Área");
+        printf("\n6) PIB");
+        printf("\n7) Número de pontos turísticos");
+        printf("\n8) Densidade populacional");
+        printf("\n9) PIB per Capita");
+        printf("\n0) Para sair do jogo!\n");
+        scanf("%d", &atr1);
+        if (atr1 < 0 || atr1 > 9){
+            printf("Opção inválida.")
+        }
+        else if (atr1 != 0) {
+            printf("\n\nEscolha outro atributo para o combate! (1 a 9)");
+            printf("\n1) Estado");
+            printf("\n2) Código da carta");
+            printf("\n3) Nome da cidade");
+            printf("\n4) População");
+            printf("\n5) Área");
+            printf("\n6) PIB");
+            printf("\n7) Número de pontos turísticos");
+            printf("\n8) Densidade populacional");
+            printf("\n9) PIB per Capita");
+            printf("\n0) Para sair do jogo!\n");
+            scanf("%d", &atr2);
+            if (atr1 < 0 || atr1 > 9){
+                printf("Opção inválida.")
+            }
+        }
+        else {break};
     }
-    else if(especial < especial2) {
-        printf("Vencedor: Carta 2\n\n");
-    }
-    else {
-        printf("EMPATE!\n\n");
-    };
+    while (atr1 != 0 || atr2 != 0);
+
 
     return 0;
 }
